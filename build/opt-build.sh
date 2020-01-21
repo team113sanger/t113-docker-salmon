@@ -51,7 +51,7 @@ export MANPATH=`echo $INST_PATH/man:$INST_PATH/share/man:$MANPATH | perl -pe 's/
 export PERL5LIB=`echo $INST_PATH/lib/perl5:$PERL5LIB | perl -pe 's/:\$//;'`
 set -u
 
-# kallisto
+# salmon
 if [ ! -e $SETUP_DIR/salmon.success ]; then
   curl -sSL --retry 10 -o dist.tar.gz https://github.com/COMBINE-lab/salmon/releases/download/v1.1.0/salmon-${VER_SALMON}_linux_x86_64.tar.gz
   mkdir salmon

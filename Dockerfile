@@ -24,8 +24,8 @@ RUN bash build/opt-build.sh $OPT
 FROM ubuntu:18.04 
 
 LABEL maintainer="vo1@sanger.ac.uk" \
-      version="0.5.9.2" \
-      description="MAGeCK container"
+      version="1.1.0" \
+      description=salmon container"
 
 MAINTAINER  Victoria Offord <vo1@sanger.ac.uk>
 
