@@ -25,7 +25,7 @@ FROM ubuntu:18.04
 
 LABEL maintainer="vo1@sanger.ac.uk" \
       version="1.1.0" \
-      description=salmon container"
+      description="salmon container"
 
 MAINTAINER  Victoria Offord <vo1@sanger.ac.uk>
 
